@@ -32,6 +32,8 @@ body {
   display: grid;
   justify-content: center;
   background-color: #495057;
+  min-height: 100vh;
+  color: #f1f5f9;
 }
 
 .Characters {
