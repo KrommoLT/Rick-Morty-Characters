@@ -1,12 +1,12 @@
 {
   "name": "spa-rick-morty",
-  "type": "module",
   "version": "1.0.0",
   "description": "single page application",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [
     "javascript"

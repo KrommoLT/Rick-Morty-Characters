@@ -12,6 +12,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: -1px 4px 19px 7px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: -1px 4px 19px 7px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -1px 4px 19px 7px rgba(0, 0, 0, 0.38);
+  border-radius: 50px;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  background-color: #f1f5f9;
 }
 
 .Header a {
@@ -24,6 +31,7 @@ body {
   grid-template-columns: minmax(auto, 976px);
   display: grid;
   justify-content: center;
+  background-color: #495057;
 }
 
 .Characters {
@@ -61,6 +69,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  background-color: #f1f5f9;
 }
 
 .Characters-card h3 {
@@ -72,13 +81,14 @@ body {
 
 .Characters-item {
   text-decoration: none;
-  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
-    1px 3px 8px rgba(39, 44, 49, 0.03);
   border-radius: 5px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
   animation-name: fade;
+  box-shadow: -1px 4px 19px 2px rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: -1px 4px 19px 2px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: -1px 4px 19px 2px rgba(0, 0, 0, 0.38);
 }
 
 .Characters-item img {
@@ -93,6 +103,7 @@ body {
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
+  color: #f1f5f9;
 }
 
 .Characters-item a {
