@@ -1,5 +1,6 @@
 {
-  "name": "spa",
+  "name": "spa-rick-morty",
+  "type": "module",
   "version": "1.0.0",
   "description": "single page application",
   "main": "index.js",
@@ -24,6 +25,7 @@
     "@babel/preset-env": "^7.16.11",
     "babel-loader": "^8.2.4",
     "copy-webpack-plugin": "^13.0.1",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
